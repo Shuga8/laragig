@@ -2,7 +2,7 @@
 
 @php
 
-    $tags = explode(',', $tagsCsv);
+    $tags = explode(', ', $tagsCsv);
     
 @endphp
 
