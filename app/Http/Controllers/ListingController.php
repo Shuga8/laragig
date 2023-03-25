@@ -87,4 +87,12 @@ class ListingController extends Controller
 
     }
 
+    public function destroy(Listing $listing){
+
+        $listing->delete();
+
+        return redirect('/')->with('message', 'Listing deleted successfully');
+
+    }
+
 }
