@@ -11,7 +11,7 @@
                         <p class="mb-4">Log in to your account to post gigs</p>
                     </header>
 
-                    <form method="POST" action="/users/login">
+                    <form method="POST" action="/users/authenticate">
 
                         @csrf
 
